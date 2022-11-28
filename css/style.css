@@ -1,6 +1,8 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #212121;
+  width: 1600px;
+  height: 2349px;
 }
 
 .WebStudio {
@@ -57,7 +59,9 @@ body {
   font-size: 44px;
   line-height: 1.3;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: #ffffff;
+  width: 696px;
+  height: 120px;
 }
 
 .botoonIndex {
@@ -67,10 +71,15 @@ body {
   letter-spacing: 0.06rem;
   border: 4px;
   cursor: pointer;
+  border-radius: 4px;
+  color: #ffffff;
+  background: #2196f3;
+  width: 200px;
+  height: 50px;
 }
 
 .botoonIndex:hover {
-  color: #ffffff;
+  color: #020202;
   background: #2196f3;
 }
 
@@ -123,6 +132,7 @@ body {
   background: #f5f4fa;
   color: #212121;
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .fiveButton:hover {
@@ -146,4 +156,36 @@ body {
   font-size: 16px;
   line-height: 1.87;
   color: #757575;
+}
+.addres {
+  color: #ffffff;
+}
+.flexTop {
+  background: #2f303a;
+  width: 1600px;
+  height: 600px;
+}
+
+.flexPerson {
+  background: #f5f4fa;
+  display: flex;
+}
+.flexAdress {
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+  background: #2f303a;
+}
+
+.flexArticleTitle {
+  display: flex;
+}
+.flexImageOneIndex {
+  display: flex;
+}
+
+.flexWstdioTop {
+  width: 1600px;
+  height: 80px;
 }
