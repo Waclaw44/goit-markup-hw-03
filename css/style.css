@@ -45,6 +45,7 @@
   padding: 0;
   margin-right: 371px;
 }
+
 .viceVersa :hover {
   color: #2196f3;
 }
@@ -57,6 +58,7 @@
 .email-tel:hover {
   color: #2196f3;
 }
+
 .email-telAdress:hover {
   color: #2196f3;
 }
@@ -90,6 +92,7 @@
   display: flex;
   margin-left: 210px;
 }
+
 .top {
   font-weight: 900;
   font-size: 44px;
@@ -101,6 +104,7 @@
   padding-left: 452px;
   padding-right: 452px;
 }
+
 .flexTop {
   background: #2f303a;
   width: 1600px;
@@ -203,6 +207,7 @@
   border-radius: 4px;
   margin-left: 8px;
 }
+
 .fiveButtonOne {
   font-weight: 500;
   font-size: 16px;
@@ -255,6 +260,7 @@
   color: #757575;
   margin-left: 24px;
 }
+
 .addres {
   color: #ffffff;
   margin-top: 20px;
@@ -270,6 +276,7 @@
   background: #f5f4fa;
   margin-top: 94px;
 }
+
 .flexAdress {
   width: 1600px;
   height: 252px;
@@ -285,6 +292,7 @@
   padding-left: 215px;
   margin-top: 94px;
 }
+
 .flexImageOneIndex {
   display: flex;
   margin: 30px;
@@ -300,6 +308,7 @@
   display: flex;
   align-items: center;
 }
+
 .flexWstdioTopIndex {
   display: flex;
   align-items: center;
@@ -312,9 +321,11 @@
   gap: 30px;
   margin-top: 50px;
 }
+
 ul {
   list-style-type: none;
 }
+
 .ImgTxtPerson {
   width: 270px;
   height: 368px;
@@ -343,6 +354,7 @@ ul {
   background: #ffffff;
   border: 1px solid #eeeeee;
 }
+
 .addresColor {
   background: #2f303a;
   width: 1600px;
