@@ -1,8 +1,10 @@
-body {
+.container {
   font-family: 'Roboto', sans-serif;
   color: #212121;
-  width: 1600px;
-  height: 2349px;
+  margin: 0 auto;
+  max-width: 1600px;
+  outline: 1px dashed blue;
+  font-style: normal;
 }
 
 .WebStudio {
@@ -13,6 +15,9 @@ body {
   line-height: 1.19;
   font-size: 26px;
   letter-spacing: 0.03em;
+  margin-left: 210px;
+  margin-right: 93px;
+  padding-top: 60px;
 }
 
 .wstudio {
@@ -26,8 +31,20 @@ body {
   font-size: 16px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  margin-right: 46px;
+  padding: 0;
 }
 
+.linkRestKo {
+  color: #212121;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  padding: 0;
+  margin-right: 371px;
+}
 .viceVersa :hover {
   color: #2196f3;
 }
@@ -38,6 +55,9 @@ body {
 }
 
 .email-tel:hover {
+  color: #2196f3;
+}
+.email-telAdress:hover {
   color: #2196f3;
 }
 
@@ -52,16 +72,39 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02rem;
   color: #757575;
+  text-decoration: none;
+  margin-left: 50px;
+  font-style: normal;
+  display: flex;
 }
 
+.email-telAdress {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02rem;
+  color: #757575;
+  text-decoration: none;
+  font-style: normal;
+  margin-top: 9px;
+  display: flex;
+  margin-left: 210px;
+}
 .top {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.3;
   letter-spacing: 0.06em;
   color: #ffffff;
-  width: 696px;
-  height: 120px;
+  text-align: center;
+  padding-top: 200px;
+  padding-left: 452px;
+  padding-right: 452px;
+}
+.flexTop {
+  background: #2f303a;
+  width: 1600px;
+  height: 600px;
 }
 
 .botoonIndex {
@@ -76,6 +119,8 @@ body {
   background: #2196f3;
   width: 200px;
   height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  margin-left: 700px;
 }
 
 .botoonIndex:hover {
@@ -108,6 +153,8 @@ body {
   line-height: 1.16;
   letter-spacing: 0.03em;
   color: #212121;
+  text-align: center;
+  padding-top: 94px;
 }
 
 .personName {
@@ -115,12 +162,16 @@ body {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  text-align: center;
+  margin-top: 30px;
 }
 
 .personNameTxt {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  text-align: center;
+  margin-top: 10px;
 }
 
 .fiveButton {
@@ -130,9 +181,44 @@ body {
   letter-spacing: 0.03em;
   border: 4px;
   background: #f5f4fa;
-  color: #212121;
+  color: #ffffff;
   cursor: pointer;
   border-radius: 4px;
+  width: 121px;
+  height: 38px;
+  left: 510px;
+  top: 174px;
+  color: #212121;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  margin-left: 8px;
+}
+.fiveButtonOne {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  border: 4px;
+  background: #f5f4fa;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 121px;
+  height: 38px;
+  left: 510px;
+  top: 174px;
+  color: #212121;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  margin-left: 510px;
+  margin-top: 94px;
+}
+
+.fiveButtonOne:hover {
+  color: #ffffff;
+  background: #2196f3;
 }
 
 .fiveButton:hover {
@@ -150,42 +236,112 @@ body {
   font-size: 18px;
   line-height: 2.11;
   letter-spacing: 0.06em;
+  margin-left: 24px;
+  margin-top: 20px;
 }
 
 .grafTxt {
   font-size: 16px;
   line-height: 1.87;
   color: #757575;
+  margin-left: 24px;
 }
 .addres {
   color: #ffffff;
-}
-.flexTop {
-  background: #2f303a;
-  width: 1600px;
-  height: 600px;
+  margin-top: 20px;
+  margin-bottom: 9px;
+  margin-left: 215px;
+  margin-top: 20px;
+  font-style: normal;
 }
 
 .flexPerson {
+  width: 1600px;
+  height: 648px;
   background: #f5f4fa;
-  display: flex;
+  margin-top: 94px;
 }
 .flexAdress {
   width: 1600px;
   height: 252px;
   left: 0px;
-  top: 2097px;
+  top: 1628px;
   background: #2f303a;
 }
 
 .flexArticleTitle {
   display: flex;
+  gap: 30px;
+  padding-right: 215px;
+  padding-left: 215px;
+  margin-top: 94px;
 }
 .flexImageOneIndex {
   display: flex;
+  margin: 30px;
+  padding-left: 175px;
+  gap: 30px;
+  margin-top: 50px;
 }
 
 .flexWstdioTop {
+  border: 1px solid #ececec;
   width: 1600px;
   height: 80px;
+  display: flex;
+  align-items: center;
+}
+.flexWstdioTopIndex {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+}
+
+.flexImgPersonOne {
+  display: flex;
+  padding-left: 215px;
+  gap: 30px;
+  margin-top: 50px;
+}
+ul {
+  list-style-type: none;
+}
+.ImgTxtPerson {
+  width: 270px;
+  height: 368px;
+  left: 1115px;
+  top: 1635px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.flexGraf {
+  display: flex;
+  gap: 30px;
+  padding: 0;
+  margin-left: 215px;
+  margin-bottom: 94px;
+  margin-top: 56px;
+}
+
+.borderImgPortfolio {
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 1130px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.addresColor {
+  background: #2f303a;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 1628px;
+}
+
+.wStudioAdres {
+  color: #ffffff;
 }
