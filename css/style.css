@@ -1,9 +1,6 @@
 .container {
   font-family: 'Roboto', sans-serif;
-  color: #212121;
   margin: 0 auto;
-  max-width: 1600px;
-  outline: 1px dashed blue;
   font-style: normal;
 }
 
@@ -168,6 +165,7 @@
   letter-spacing: 0.03em;
   text-align: center;
   margin-top: 94px;
+  width: 1600px;
 }
 
 .personName {
@@ -199,8 +197,6 @@
   border-radius: 4px;
   width: 121px;
   height: 38px;
-  left: 510px;
-  top: 174px;
   color: #212121;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -220,14 +216,13 @@
   border-radius: 4px;
   width: 121px;
   height: 38px;
-  left: 510px;
-  top: 174px;
   color: #212121;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   margin-left: 510px;
   margin-top: 94px;
+  margin-bottom: 50px;
 }
 
 .fiveButtonOne:hover {
@@ -280,8 +275,6 @@
 .flexAdress {
   width: 1600px;
   height: 252px;
-  left: 0px;
-  top: 1628px;
   background: #2f303a;
 }
 
@@ -291,6 +284,7 @@
   padding-right: 215px;
   padding-left: 215px;
   margin-top: 94px;
+  width: 1600px;
 }
 
 .flexImageOneIndex {
@@ -302,7 +296,7 @@
 }
 
 .flexWstdioTop {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
   width: 1600px;
   height: 80px;
   display: flex;
@@ -329,8 +323,6 @@ ul {
 .ImgTxtPerson {
   width: 270px;
   height: 368px;
-  left: 1115px;
-  top: 1635px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -342,15 +334,16 @@ ul {
   gap: 30px;
   padding: 0;
   margin-left: 215px;
-  margin-bottom: 94px;
-  margin-top: 56px;
+  margin-top: 30px;
 }
 
+.flexGrafthre {
+  margin-bottom: 94px;
+  margin-top: 30px;
+}
 .borderImgPortfolio {
   width: 370px;
   height: 404px;
-  left: 215px;
-  top: 1130px;
   background: #ffffff;
   border: 1px solid #eeeeee;
 }
@@ -359,8 +352,6 @@ ul {
   background: #2f303a;
   width: 1600px;
   height: 252px;
-  left: 0px;
-  top: 1628px;
 }
 
 .wStudioAdres {
