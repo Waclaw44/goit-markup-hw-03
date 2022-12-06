@@ -1,7 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
 .container {
   font-family: 'Roboto', sans-serif;
   margin: 0 auto;
   font-style: normal;
+  width: 1200px;
 }
 
 .WebStudio {
@@ -98,13 +112,11 @@
   color: #ffffff;
   text-align: center;
   padding-top: 200px;
-  padding-left: 452px;
-  padding-right: 452px;
+   
 }
 
 .flexTop {
   background: #2f303a;
-  width: 1600px;
   height: 600px;
 }
 
@@ -122,6 +134,7 @@
   height: 50px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   margin-left: 700px;
+  margin: 0;
 }
 
 .botoonIndex:hover {
@@ -165,7 +178,6 @@
   letter-spacing: 0.03em;
   text-align: center;
   margin-top: 94px;
-  width: 1600px;
 }
 
 .personName {
@@ -266,14 +278,12 @@
 }
 
 .flexPerson {
-  width: 1600px;
   height: 648px;
   background: #f5f4fa;
   margin-top: 94px;
 }
 
 .flexAdress {
-  width: 1600px;
   height: 252px;
   background: #2f303a;
 }
@@ -281,23 +291,20 @@
 .flexArticleTitle {
   display: flex;
   gap: 30px;
-  padding-right: 215px;
-  padding-left: 215px;
   margin-top: 94px;
-  width: 1600px;
+  width: 1170px;
+  height: 101px;
 }
 
 .flexImageOneIndex {
   display: flex;
   margin: 30px;
-  padding-left: 175px;
   gap: 30px;
   margin-top: 50px;
 }
 
 .flexWstdioTop {
   border-bottom: 1px solid #ececec;
-  width: 1600px;
   height: 80px;
   display: flex;
   align-items: center;
@@ -311,13 +318,8 @@
 
 .flexImgPersonOne {
   display: flex;
-  padding-left: 215px;
   gap: 30px;
   margin-top: 50px;
-}
-
-ul {
-  list-style-type: none;
 }
 
 .ImgTxtPerson {
@@ -350,10 +352,12 @@ ul {
 
 .addresColor {
   background: #2f303a;
-  width: 1600px;
   height: 252px;
 }
 
 .wStudioAdres {
   color: #ffffff;
+}
+
+.sectionTeam {
 }
