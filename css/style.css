@@ -27,6 +27,7 @@ a {
   font-size: 26px;
   letter-spacing: 0.03em;
   padding-bottom: 25px;
+  margin-right: 93px;
 }
 
 .WebStudioAdress {
@@ -53,6 +54,7 @@ a {
   letter-spacing: 0.02em;
   padding: 0;
   height: auto;
+  margin-right: 46px;
 }
 
 .headerTop {
@@ -67,7 +69,6 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
   padding: 0;
-  margin-right: 371px;
 }
 
 .viceVersa {
@@ -87,7 +88,11 @@ a {
   outline: none;
 }
 
-.email-tel:hover {
+.email:hover {
+  color: #2196f3;
+
+}
+.tel:hover {
   color: #2196f3;
 }
 
@@ -100,7 +105,7 @@ a {
   outline: none;
 }
 
-.email-tel {
+.email {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -108,7 +113,18 @@ a {
   color: #757575;
   text-decoration: none;
   font-style: normal;
-  display: block;
+  margin-left: 290px;
+}
+
+.tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02rem;
+  color: #757575;
+  text-decoration: none;
+  font-style: normal;
+  margin-left: 50px;
 }
 
 .email-telAdress {
@@ -151,6 +167,7 @@ a {
   width: 200px;
   height: 50px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  
 }
 
 .botoonIndex:hover {
