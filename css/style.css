@@ -26,8 +26,17 @@ a {
   line-height: 1.19;
   font-size: 26px;
   letter-spacing: 0.03em;
-  margin-left: 210px;
-  margin-right: 93px;
+  padding-bottom: 25px;
+}
+
+.WebStudioAdress {
+  font-family: 'Raleway';
+  color: #212121;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 1.19;
+  font-size: 26px;
+  letter-spacing: 0.03em;
   padding-top: 60px;
 }
 
@@ -42,10 +51,14 @@ a {
   font-size: 16px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  margin-right: 46px;
   padding: 0;
+  height: auto;
 }
 
+.headerTop {
+  display: flex;
+  align-items: center;
+}
 .linkRestKo {
   color: #212121;
   text-decoration: none;
@@ -55,6 +68,14 @@ a {
   letter-spacing: 0.02em;
   padding: 0;
   margin-right: 371px;
+}
+
+.viceVersa {
+  flex: 1;
+  display: flex;
+  justify-self: flex-start;
+  gap: 32px;
+  align-items: baseline;
 }
 
 .viceVersa :hover {
@@ -86,9 +107,8 @@ a {
   letter-spacing: 0.02rem;
   color: #757575;
   text-decoration: none;
-  margin-left: 50px;
   font-style: normal;
-  display: flex;
+  display: block;
 }
 
 .email-telAdress {
@@ -99,9 +119,8 @@ a {
   color: #757575;
   text-decoration: none;
   font-style: normal;
-  margin-top: 9px;
-  display: flex;
-  margin-left: 210px;
+  display: block;
+  margin-bottom: 9px;
 }
 
 .top {
@@ -112,7 +131,6 @@ a {
   color: #ffffff;
   text-align: center;
   padding-top: 200px;
-   
 }
 
 .flexTop {
@@ -133,8 +151,6 @@ a {
   width: 200px;
   height: 50px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  margin-left: 700px;
-  margin: 0;
 }
 
 .botoonIndex:hover {
@@ -213,30 +229,16 @@ a {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-  margin-left: 8px;
 }
 
-.fiveButtonOne {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
-  border: 4px;
-  background: #f5f4fa;
-  color: #ffffff;
-  cursor: pointer;
-  border-radius: 4px;
-  width: 121px;
-  height: 38px;
-  color: #212121;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-  margin-left: 510px;
-  margin-top: 94px;
-  margin-bottom: 50px;
+.buttons {
+  padding: 25px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding-top: 94px;
 }
-
 .fiveButtonOne:hover {
   color: #ffffff;
   background: #2196f3;
@@ -265,14 +267,12 @@ a {
   font-size: 16px;
   line-height: 1.87;
   color: #757575;
-  margin-left: 24px;
 }
 
 .addres {
   color: #ffffff;
   margin-top: 20px;
   margin-bottom: 9px;
-  margin-left: 215px;
   margin-top: 20px;
   font-style: normal;
 }
@@ -305,13 +305,10 @@ a {
 
 .flexWstdioTop {
   border-bottom: 1px solid #ececec;
-  height: 80px;
-  display: flex;
-  align-items: center;
+  height: 50px;
 }
 
 .flexWstdioTopIndex {
-  display: flex;
   align-items: center;
   padding-top: 24px;
 }
@@ -335,7 +332,6 @@ a {
   display: flex;
   gap: 30px;
   padding: 0;
-  margin-left: 215px;
   margin-top: 30px;
 }
 
@@ -357,7 +353,4 @@ a {
 
 .wStudioAdres {
   color: #ffffff;
-}
-
-.sectionTeam {
 }
